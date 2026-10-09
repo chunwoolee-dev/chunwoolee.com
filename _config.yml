@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Commands Box
-subtitle: ''
-description: ''
-keywords:
-author: chunwoo lee
+title: 이춘우
+subtitle: '백엔드 개발 · 클라우드 인프라 · 운영 자동화'
+description: 'Python과 TypeScript로 백엔드 API를 개발하고, 클라우드 인프라와 비동기 작업, 운영 자동화를 연결하는 이춘우의 포트폴리오입니다.'
+keywords: 백엔드, Python, FastAPI, TypeScript, 클라우드, 인프라, 운영 자동화
+author: 이춘우
 language: ko
 timezone: 'Asia/Seoul'
 
@@ -61,7 +61,7 @@ prismjs:
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: blog
   per_page: 10
   order_by: -date
 
