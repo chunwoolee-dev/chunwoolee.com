@@ -31,7 +31,7 @@ custom_file_path:
     #bodyEnd: source/_data/body-end.swig
     #variable: source/_data/variables.styl
     #mixin: source/_data/mixins.styl
-    #style: source/_data/styles.styl
+    style: source/_data/styles.styl
 
 # ---------------------------------------------------------------
 # Site Information Settings
@@ -116,7 +116,6 @@ menu:
     home: / || fa fa-home
     소개: /about/ || fa fa-user
     프로젝트: /projects/ || fa fa-code
-    글: /blog/ || fa fa-pen
     #tags: /tags/ || fa fa-tags
     #categories: /categories/ || fa fa-th
     archives: /archives/ || fa fa-archive
