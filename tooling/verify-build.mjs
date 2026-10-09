@@ -42,6 +42,9 @@ const pages = collectHtml(output);
 for (const path of pages) {
   const page = path.slice(output.length).replace(/index\.html$/, '');
   const html = readFileSync(path, 'utf8');
+  if (!/<html(?:\s|>)/i.test(html) || !/<body(?:\s|>)/i.test(html)) {
+    throw new Error(`페이지 렌더링 결과가 비어 있거나 잘못되었습니다: ${path}`);
+  }
   for (const match of html.matchAll(/\b(?:href|src)=["']([^"']+)["']/g)) {
     verifyReference(match[1], page);
   }

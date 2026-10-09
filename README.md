@@ -26,9 +26,13 @@ npm run verify
 ## 콘텐츠 수정
 
 - 소개: `source/about/index.md`
+- 홈: `source/index.md`
+- 프로젝트: `source/projects/index.md`
 - 글: `source/_posts/`
 - 사이트 정보: `_config.yml`
 - 화면 설정: `_config.next.yml`
 - 배포 도메인: `source/CNAME`과 GitHub Pages 설정
 
 빌드 후 `npm run verify`로 생성된 페이지, 내부 링크, 도메인 파일을 확인합니다.
+
+콘텐츠는 2026년 10월 9일 기준 이력서의 경력·프로젝트·기술 정보로 갱신했습니다. 기존 글의 영구 링크와 아카이브는 유지하며 글 목록은 `/blog/`에서 제공합니다.

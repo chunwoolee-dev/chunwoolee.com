@@ -114,7 +114,9 @@ darkmode: true
 # External url should start with http:// or https://
 menu:
     home: / || fa fa-home
-    about: /about/ || fa fa-user
+    소개: /about/ || fa fa-user
+    프로젝트: /projects/ || fa fa-code
+    글: /blog/ || fa fa-pen
     #tags: /tags/ || fa fa-tags
     #categories: /categories/ || fa fa-th
     archives: /archives/ || fa fa-archive
@@ -806,7 +808,7 @@ mermaid:
 # Use velocity to animate everything.
 # For more information: http://velocityjs.org
 motion:
-    enable: true
+    enable: false
     async: false
     transition:
         # Transition variants:
